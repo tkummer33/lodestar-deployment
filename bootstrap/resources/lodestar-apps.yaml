@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     path: "applications/"
-    repoURL: "https://github.com/tkummer/lodestar-deployment.git"
+    repoURL: "https://github.com/tkummer33/lodestar-deployment.git"
     targetRevision: "test_branch"
   syncPolicy:
     automated:
