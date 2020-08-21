@@ -9,9 +9,9 @@ deploymentNamespace: lodestar-argo-cd
 ##################
 
 applicationVersions:
-  frontend: &frontendVersion replace_omp_lodestar
-  backend: &backendVersion replace_omp_lodestar
-  git-api: &gitApiVersion replace_omp_lodestar
+  frontend: &frontendVersion test_branch
+  backend: &backendVersion test_branch
+  git-api: &gitApiVersion test_branch
   status: &statusVersion master
   resource-dispatcher: &resourceDispatcherVersion master
   agnosticv-operator: &agnosticvVersion helm_chart
