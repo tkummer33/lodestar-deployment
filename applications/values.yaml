@@ -29,7 +29,7 @@ applications:
   url: https://github.com/tkummer33/lodestar-frontend.git
   path: deployment
   deploymentNamespace: lodestar-frontend
-  ref: *frontendVersion
+  ref: test_branch
   helmValues:
     imageTag: *frontendVersion
   ignoreDifferences:
@@ -42,7 +42,7 @@ applications:
   url: https://github.com/tkummer33/lodestar-backend.git
   path: deployment
   deploymentNamespace: lodestar-frontend
-  ref: *backendVersion
+  ref: test_branch
   helmValues:
     imageTag: *backendVersion
   ignoreDifferences:
@@ -55,7 +55,7 @@ applications:
   url: https://github.com/tkummer33/lodestar-git-api.git
   path: deployment
   deploymentNamespace: lodestar-frontend
-  ref: *gitApiVersion
+  ref: test_branch
   helmValues:
     imageTag: *gitApiVersion
   ignoreDifferences:
